@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+/* color:rgb(27,122,188) blu e hapur
+   color:rgb(39,41,98)   blu e eret 
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    font-family: 'Poppins',sans-serif;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 45px;
+    margin: auto;
+}
+.nav-bar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bar .logo img{
+   height: 100px;
+   width: auto;
+}
+.nav-bar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.nav-bar ul{
+    cursor: default;
+    margin-bottom: 20px;
+}
+.nav-bar .menu li a{
+    margin: 15px;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(39,41,98);
+    cursor: pointer;
+    transition:color .3s ease-in ;
+    transition:letter-spacing .3s ease-in;
+
+}
+.nav-bar .menu li a:hover{
+    color: rgb(27,122,188);
+    letter-spacing: 1.5px;
+}
+.tex1 h1{
+position: absolute;
+top: 5em;
+left: 6em;
+font-size: 40px;
+color: lightslategray;
+font-family: 'Roboto',sans-serif;
+letter-spacing: 3px;
+}
+.img img{
+    height: 400px ;
+    width: 400px; ;
+    position: absolute;
+    top: 350px;
+    left: 50px;
+}
+.img h3{
+    position: absolute;
+    top:20em;
+    left: 25em;
+    font-size: 22px;
+    color: lightslategray;
+    font-family: 'Roboto',sans-serif;
+    letter-spacing: 1.5px;
+} 
+.img h4{
+    position: absolute;
+    top:25em;
+    left: 20em;
+    font-size: 20px;
+    color: lightslategray;
+    font-family: 'Roboto',sans-serif;
+    letter-spacing: 1.5px;
+}   
